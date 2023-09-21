@@ -16,6 +16,7 @@ COPY ynetd .
 
 RUN chown -R root:root /home/ctf
 RUN chmod +x close_me
+RUN chmod +x ynetd
 USER ctf
 EXPOSE 1337
 CMD ./ynetd -p 1337 ./close_me
