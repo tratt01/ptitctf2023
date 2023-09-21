@@ -12,6 +12,8 @@ COPY flag.txt .
 COPY ynetd .
 
 RUN chown -R root:root /home/ctf
+RUN chmod +x ynetd
+RUN chmod +x terminator
 
 USER ctf
 EXPOSE 9999
