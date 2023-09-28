@@ -1,1 +1,1 @@
-PTITCTF2023{3a6y_tu_pick_a_c@t}
+PTITCTF{3a6y_tu_pick_a_c@t}

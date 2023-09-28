@@ -1,6 +1,6 @@
 <?php
 // flag
-$flag="h4des{101-r3Con-101}"; 
+$flag="PTITCTF{101-r3Con-101}"; 
 $fakeflag="h4des{fake-flag}";
 
 if (isset($_COOKIE['token'])) {
