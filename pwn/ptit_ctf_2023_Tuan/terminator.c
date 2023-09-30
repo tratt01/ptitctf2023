@@ -20,7 +20,7 @@ int filenameSandbox(char filename[]){
     if(strlen(filename)>255){
         filename[255] = '\0';
     }
-    if(strchr(filename,'*')!=NULL){
+    if(strcmp(filename,"*")==0){
         printf("Don't try to read all file !");
         return -1;
     }
@@ -89,6 +89,7 @@ int strcat___(char str1[], char str2[]){
 }
 
 int main(){
+init();
     banner();
     help();
     talk();
